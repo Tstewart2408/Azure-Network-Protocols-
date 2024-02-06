@@ -20,8 +20,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
+- Step 1: Establish a Resource Group using Microsoft Azure. Next, deploy a Windows 10 Virtual Machine within this resource group, configuring a new Virtual Network and Subnet during its creation; subsequently, create a Linux (Ubuntu) VM, associating it with the same Resource Group and Virtual Network. Finally, monitor the connectivity and performance of your Virtual Network through Network Watcher, ensuring a streamlined and well-orchestrated cloud infrastructure.
+- Step 2: Connect to Windows 10 Virtual Machine using Remote Desktop to access it. Install WireShark onto our Windows 10 VM. Open WireShark and set a filter to show only ICMP traffic. Find the private IP address of your Ubuntu VM and try pinging it from your Windows 10 VM. Observe the ping messages and replies in Wireshark. Use command line or PowerShell in your Windows 10 VM to ping a public website (like www.google.com) and check the traffic in Wireshark. Start a continuous ping from your Windows 10 VM to your Ubuntu VM. Open the Network Security Group for your Ubuntu VM and block incoming ICMP traffic. Observe the impact on ICMP traffic in Wireshark and the command line Ping activity. Re-enable incoming ICMP traffic in the Network Security Group for your Ubuntu VM. Observe the traffic in Wireshark and check the command line Ping activity. Stop the continuous ping activity.
 - Step 3
 - Step 4
 
