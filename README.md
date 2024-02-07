@@ -46,3 +46,6 @@ Step 5: After observing ICMP traffic, we will filter WireShark to observe SSH Tr
 Step 6: Don't forget to clean up your lab by closing the remote desktop connection, deleting resource group(s) created at the beginning of the lab, and verify resource group deletion.
 
 ![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/573e66e7-813c-4711-a117-2887e679c235)
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/08e7d16a-4a85-4c1d-b0f0-319409254fe5)
+
