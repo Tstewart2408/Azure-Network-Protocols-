@@ -18,35 +18,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
-
-- Step 1: Create a Resource Group using Microsoft Azure. Next, create a Windows 10 Virtual Machine within this resource group, configuring a new Virtual Network and Subnet during its creation; subsequently, create a Linux (Ubuntu) VM, associating it with the same Resource Group and Virtual Network. Finally, monitor the connectivity and performance of your Virtual Network through Network Watcher, ensuring a streamlined and well-orchestrated cloud infrastructure.
-- Step 2: Connect to Windows 10 Virtual Machine using Remote Desktop to access it. Install WireShark onto our Windows 10 VM. Open WireShark and set a filter to show only ICMP traffic. Using the private IP address from Ubuntu VM to ping Windows 10 VM. Observe the ping messages and replies in Wireshark. Use command line or PowerShell in your Windows 10 VM to ping a public website (like www.google.com) and check the traffic in Wireshark. 
-- Step 3: After observing ICMP traffic, we will filter WireShark to observe SSH Traffic, DHCP Traffic, DNS Traffic, and RDP Traffic 
-- Step 4: Don't forget to clean up your lab by closing the remote desktop connection, deleting resource group(s) created at the beginning of the lab, and verify resource group deletion. 
-
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 1: Create a Resource Group using Microsoft Azure. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/ab821568-3855-46fb-b738-267f2a52a8d9)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 2: Connect to Windows 10 Virtual Machine using Remote Desktop to access it. 
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/57ca22c5-3330-4f72-9095-0e03abcc9db2)
+
+Step3: Install WireShark onto our Windows 10 VM
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/041b8d82-953a-4cbb-9e0b-42695c8a2f42)
+
+Step 4: Open WireShark and set a filter to show only ICMP traffic. Using the private IP address from Ubuntu VM to ping Windows 10 VM. Observe the ping messages and replies in Wireshark. Use command line or PowerShell in your Windows 10 VM to ping a public website (like www.google.com) and check the traffic in Wireshark.
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/d7d60edf-5d2a-4a21-ab07-3cbff05f1d76)
+
+Step 5: After observing ICMP traffic, we will filter WireShark to observe SSH Traffic, DHCP Traffic, DNS Traffic, and RDP Traffic
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/54efdcb6-d9b9-49d5-a294-c6f8208d44b2)
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/33312add-8fc6-494b-82c6-6a487b36e6b2)
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/ab26feb4-9eb8-4574-bddb-61a5311c0cfd)
+
+Step 6: Don't forget to clean up your lab by closing the remote desktop connection, deleting resource group(s) created at the beginning of the lab, and verify resource group deletion.
+
+![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/573e66e7-813c-4711-a117-2887e679c235)
