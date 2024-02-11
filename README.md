@@ -20,14 +20,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-Step 1: Create a Resource Group using Microsoft Azure. 
+Step 1: Create a Resource Group and 2 Seperate Virtual Machines using Microsoft Azure. 
 
 ![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/ab821568-3855-46fb-b738-267f2a52a8d9)
 
-Step 2: Connect to Windows 10 Virtual Machine using Remote Desktop to access it. 
+Step 2: Connect to your Windows 10 Virtual Machine using Remote Desktop.
 ![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/57ca22c5-3330-4f72-9095-0e03abcc9db2)
 
-Step3: Install WireShark onto our Windows 10 VM
+Step3: Install WireShark onto your Windows 10 Virtual Machine. 
 
 ![image](https://github.com/Tstewart2408/Azure-Network-Protocols-/assets/158493074/041b8d82-953a-4cbb-9e0b-42695c8a2f42)
 
